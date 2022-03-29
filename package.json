@@ -1,0 +1,42 @@
+{
+  "name": "chilerut-docs",
+  "version": "1.0.0",
+  "description": "Docs repository for ChileRUT library.",
+  "main": "docs/.vitepress/dist/index.html",
+  "files": [
+    "docs/.vitepress/dist"
+  ],
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "prometheusn/chilerut-docs"
+  },
+  "keywords": [
+    "chilerut-docs"
+  ],
+  "author": "Prometheus <prometheusjan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@types/prismjs": "^1.26.0",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23",
+    "vitepress": "^0.22.3"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
+  }
+}

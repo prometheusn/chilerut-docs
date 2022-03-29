@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Fira Code Light';
+    src: url('fonts/FiraCode-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: oblique 0deg 10deg;
+    src: url("fonts/Inter-var.woff2") format("woff2");
+}
+
+/*@font-face {*/
+/*    font-family: 'Inter var';*/
+/*    font-weight: 100 900;*/
+/*    font-display: swap;*/
+/*    font-style: normal;*/
+/*    src: url("assets/Inter-var.woff2") format("woff2");*/
+/*}*/
+
+:root {
+    --c-brand: theme('colors.sky.700');
+    --font-family-base: "Inter var";
+    --font-family-mono: "Inter var";
+    --code-font-size: 16px;
+    --c-brand-light: #747bff;
+}
+
+.prose code {
+    font-family: "Fira Code Light", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    @apply whitespace-pre-wrap
+}
+
+.content {
+    @apply prose md:prose-lg  my-10 max-w-prose text-gray-700
+}
+
+.prose h1 {
+    @apply font-semibold
+}
