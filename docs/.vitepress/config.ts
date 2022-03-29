@@ -5,8 +5,6 @@ export default defineConfig({
     lang: "es-CL",
     title: "ChileRUT",
     description: "Documentación para ChileRUT, una librería escrita en TypeScript, con diversas utilidades para el RUT/RUN chileno.",
-    lastUpdated: true,
-    base: "/chilerut-docs",
     themeConfig: {
         nav: [
             { text: "Documentación", link: "/" },
