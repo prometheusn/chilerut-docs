@@ -1,1 +1,0 @@
-import{_ as o,c as e,o as a,a as t}from"./app.7838664d.js";const X='{"title":"Formato","description":"","frontmatter":{},"headers":[],"relativePath":"conceptos/formato.md","lastUpdated":1648582585000}',r={},s=t("",6),n=[s];function p(c,d,l,i,_,m){return a(),e("div",null,n)}var f=o(r,[["render",p]]);export{X as __pageData,f as default};

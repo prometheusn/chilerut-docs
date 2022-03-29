@@ -1,1 +1,0 @@
-import{_ as a,c as n,o as s,a as t}from"./app.7838664d.js";const h='{"title":"Instalaci\xF3n","description":"","frontmatter":{},"headers":[{"level":2,"title":"Uso","slug":"uso"}],"relativePath":"empezando/index.md","lastUpdated":1648582585000}',e={},o=t("",9),c=[o];function p(i,r,l,d,u,_){return s(),n("div",null,c)}var k=a(e,[["render",p]]);export{h as __pageData,k as default};
